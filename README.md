@@ -206,20 +206,22 @@ Application	A service that consumes certificates via enrollment
 
   Staging first — Always test with Let's Encrypt staging to avoid rate-limit lockouts during setup.
 
+  
+
 🔮 Future Improvements
 
-  □
+  
 
   Add certificate expiry alerting (email/Slack via Infisical)
-  □
+  
 
   Implement automatic renewal verification for the lab application
-  □
+  
 
   Integrate a second CA (e.g., ZeroSSL) for redundancy
-  □
+  
 
   Document the revocation workflow for compromised certificates
-  □
+  
 
   Add monitoring dashboards (Grafana) for certificate health
