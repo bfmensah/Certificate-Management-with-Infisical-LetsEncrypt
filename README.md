@@ -15,14 +15,15 @@ In enterprises, certificates are often scattered across teams and services. With
 - Revocation becomes a nightmare
 
 
+
 What I Built
 
 A self-hosted Infisical instance that:
 
-  Connects to Cloudflare for DNS-01 challenges
+   * Connects to Cloudflare for DNS-01 challenges
 
-  Uses Let's Encrypt as an external ACME Certificate Authority
+   * Uses Let's Encrypt as an external ACME Certificate Authority
 
-  Issues certificates through a standardized policy → profile → application workflow
+   * Issues certificates through a standardized policy → profile → application workflow
 
-  Serves a real certificate to an application in my lab
+   * Serves a real certificate to an application in my lab
