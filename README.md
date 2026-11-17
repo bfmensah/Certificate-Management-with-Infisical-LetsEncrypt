@@ -1,3 +1,15 @@
-# CYber-Project-Implementations
-This repository will mainly contain projects around security projects you will find in enterprise environments.
-This should shed understanding on how some of the common solutions implemented within an enterprise environment to minimize risk and improve their security posture.
+# CYber-Project1- Certificate Management with Infisical & Let's Encrypt
+This project demonstrates how to build a centralized certificate management system using Infisical in a home lab environment. 
+This mirrors real-world enterprise scenarios where organizations need a single source of truth for issuing, monitoring, and revoking TLS certificates across their infrastructure.
+
+#The Problem This Solves
+
+In enterprises, certificates are often scattered across teams and services. Without central management:
+
+    Certificates expire unexpectedly causing outages
+
+    No visibility into what's issued and where
+
+    Manual processes lead to misconfigurations
+
+    Revocation becomes a nightmare
