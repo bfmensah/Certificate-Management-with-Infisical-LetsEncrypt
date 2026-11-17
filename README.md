@@ -6,10 +6,10 @@ This mirrors real-world enterprise scenarios where organizations need a single s
 
 In enterprises, certificates are often scattered across teams and services. Without central management:
 
-    Certificates expire unexpectedly causing outages
+- Certificates expire unexpectedly causing outages
 
-    No visibility into what's issued and where
+- No visibility into what's issued and where
 
-    Manual processes lead to misconfigurations
+- Manual processes lead to misconfiguration
 
-    Revocation becomes a nightmare
+- Revocation becomes a nightmare
