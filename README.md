@@ -19,3 +19,18 @@ The result is a centralized system that:
    Serves a real, valid certificate to an application running in the lab
 
    Provides a single dashboard to track certificate status, expiry, and revocation
+
+
+   
+💡 Why This Project Is Useful
+
+In real enterprises, certificates are often scattered across teams and services. Without central management:
+
+   Certificates expire unexpectedly, causing outages
+
+   No visibility into what's issued and where
+
+   Manual processes lead to misconfiguration
+
+   Revocation becomes a nightmare
+
