@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="new" src="https://github.com/user-attachments/assets/671522af-1bb8-45ca-9135-045692a9720e" />
 # Certificate Management with Infisical & Let's Encrypt
 A home lab project demonstrating centralized TLS certificate management using Infisical, Cloudflare, and Let's Encrypt — mirroring how enterprises 
 issue, monitor, and revoke certificates from a single source of truth.
