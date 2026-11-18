@@ -102,7 +102,7 @@ Infisical needs to complete the DNS-01 challenge by adding and removing TXT reco
 Step 2: Obtain the Account ID- On the Cloudflare account homepage, click the account information drop down menu and select Copy account ID.
 <br>
 <br>
-step 3: Create the Connection in Infisical: In Certificate Manager, go to Settings → App Connections, select Cloudflare Connection, enter the API Token and Account ID you just obtained, and click Connect to complete the setup.
+step 3: Create the Connection in Infisical: In Certificate Manager, go to Settings → App Connections, select Cloudflare Connection, enter the API Token and Account ID you just obtained, and click Connect to complete the setup. You can also do the same thing by going to integrations and accessing the *App Connections* to connect your Cloudflare to Infisical
 
 <br>
 
@@ -124,6 +124,8 @@ Step 2: Create an ACME External CA
 <br>
 
 After the connection is successful, you can register the external CA.
+We need to register our external CA in order to create an acme (Automatic Certificate Management Environment) client that will request
+for valid certificates from letsencrypt.
 
 1. **Navigate to External CAs**: In Certificate Manager, go to **Certificate Authorities**, find the **External Certificate Authorities** section, and click Create CA
 <br>
